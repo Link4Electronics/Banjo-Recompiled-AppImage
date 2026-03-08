@@ -29,10 +29,7 @@ esac
 ZIP_LINK=$(wget -qO- https://api.github.com/repos/BanjoRecomp/BanjoRecomp/releases \
       | sed 's/[()",{} ]/\n/g' | grep -o -m 1 "https.*BanjoRecompiled.*$zip_arch.zip")
 echo "$ZIP_LINK" | awk -F'/' '{gsub(/^v/, "", $(NF-1)); print $(NF-1); exit}' > ~/version
-if ! wget --retry-connrefused --tries=30 "$ZIP_LINK" -O /tmp/app.zip 2>/tmp/download.log; then
-	cat /tmp/download.log
-	exit 1
-fi
+wget --retry-connrefused --tries=30 "$ZIP_LINK" -O /tmp/app.zip
 
 mkdir -p ./AppDir/bin
 bsdtar -xvf /tmp/app.zip -C .
