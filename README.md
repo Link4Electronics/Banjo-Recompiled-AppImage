@@ -1,10 +1,10 @@
 <div align="center">
 
-# Banjo-Recompiled-AppImage 🐧
+# BanjoRecomp-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Banjo-Recompiled-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Banjo-Recompiled-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/Banjo-Recompiled-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Banjo-Recompiled-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Banjo-Recompiled-AppImage)](https://github.com/pkgforge-dev/Banjo-Recompiled-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/BanjoRecomp-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/BanjoRecomp-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/BanjoRecomp-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/BanjoRecomp-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/BanjoRecomp-AppImage)](https://github.com/pkgforge-dev/BanjoRecomp-AppImage/releases/latest)
 
 <p align="center">
   <img src="https://github.com/BanjoRecomp/BanjoRecomp/blob/main/icons/app.png" width="128" />
@@ -13,7 +13,7 @@
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/Banjo-Recompiled-AppImage/releases/latest) | [Click here](https://github.com/BanjoRecomp/BanjoRecomp) |
+| [Click here](https://github.com/pkgforge-dev/BanjoRecomp-AppImage/releases/latest) | [Click here](https://github.com/BanjoRecomp/BanjoRecomp) |
 
 </div>
 
